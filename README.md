@@ -1,26 +1,31 @@
 **The University of Melbourne**
 # COMP30019 – Graphics and Interaction
 
-## Workshop 10
-
-
-# Introduction:
-
-In this workshop you will be continuing work on the _Cube Invaders_ game from last time.
-The goal will be to create something playable and even somewhat challenging. You'll also
-refine the game dynamics and add a bit of polish via much greater use of the Unity physics engine.
+## Workshop 5: Gameplay Elements (Part 2)
 
 <p align="center">
   <img src="Gifs/game.gif">
 </p>
 
+<p align="center">
+  <a href="https://comp30019.github.io/Workshop-5-Solution/" alt="Play Online">
+    <img src="https://img.shields.io/static/v1?label=Play%20Solution&message=comp30019.github.io/Workshop-5-Solution/&color=blue&logo=unity" />
+  </a>
+</p>
+
+
+### Introduction
+
+In this workshop you will be continuing work on the _Cube Invaders_ game from last time.
+The goal will be to create something playable and even somewhat challenging. You'll also
+refine the game dynamics and add a bit of polish via much greater use of the Unity physics engine.
+
 > **Note**<br>
-> This repository contains the solution from last week. You are welcome to work off this
-> as a base, or your own solution from last week. The tasks in this workshop assume
+> This repository contains the solution from last week.  The tasks in this workshop assume
 > you understand how everything up until this point works, so it's wise
 > to study the solution if you haven't already.
 
-### Tasks:
+### Tasks
 
 #### 1. Click to fire
 
