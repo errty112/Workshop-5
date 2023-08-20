@@ -241,8 +241,7 @@ Your (very big) task is to attempt the following modifications:
 
 It's unlikely you'll complete all of these modifications
 during the workshop, so continue to work on them over the next week, and of course,
-check out the sample solution when it is made available (sneak peak in the following gif --
-feel free to use it as a rough guide of what to aim for).
+check out the sample solution when it is made available (use the following gif as a rough guide of what to aim for, or you can play the solution online [here](https://comp30019.github.io/Workshop-5-Solution/)).
 
 <p align="center">
   <img src="Gifs/task_5.gif">
