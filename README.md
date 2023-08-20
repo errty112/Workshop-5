@@ -14,7 +14,7 @@
 </p>
 
 
-### Introduction
+### Overview
 
 In this workshop you will be continuing work on the _Cube Invaders_ game from last time.
 The goal will be to create something playable and even somewhat challenging. You'll also
@@ -172,7 +172,7 @@ according to the modifications below, you might need to **temporarily disable**
 game logic that directly modifies `Transform` components until it is appropriately
 refactored. 
 
-> **Warning** <br>
+> **Warning**<br>
 > The Unity physics engine operates in a distinct _fixed_
 > update cycle. It's possible for physics updates to occur zero, one _or more_
 > times in-between individual `Update()` calls! You can directly hook into these updates
@@ -248,4 +248,4 @@ feel free to use it as a rough guide of what to aim for).
   <img src="Gifs/task_5.gif">
 </p>
 
-Next time, we'll round off the gameplay elements workshops by adding some user interfaces!
+Next time, we'll round things off by adding some user interfaces and sound effects!
