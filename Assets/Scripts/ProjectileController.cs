@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ProjectileController : MonoBehaviour
 {
-    [SerializeField] private Vector3 velocity;
+    public Vector3 velocity;
     [SerializeField] private ParticleSystem collisionParticles;
 
     [SerializeField] private int damageAmount = 50;
