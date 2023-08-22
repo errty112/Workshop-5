@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem deathEffect;
     [SerializeField] private float speed = 1.0f; // Default speed sensitivity
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private float fireCooldown = 0.1f; // Rate of Fire
@@ -67,7 +68,13 @@ public class PlayerController : MonoBehaviour
 
     public void UpdateHealth(float frac)
     {
-        //this._renderer.material.color = Color.blue * frac;
+        this._renderer.material.color = this._renderer.material.color * frac;
+    }
+
+    public void Kill()
+    {
+        var particles = Instantiate(this.deathEffect);
+        particles.transform.position = transform.position;
     }
 
 }
